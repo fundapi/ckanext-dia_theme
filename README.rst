@@ -2,7 +2,7 @@
 Tema de CKAN
 =============
 
-Referencia de tema de CKAN basado en data.govt.nz y creado en LESS
+Tema de CKAN basado en data.govt.nz y creado en LESS, referencia para portal de datos abiertos.
 
 --------------
 Requerimientos
