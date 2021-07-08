@@ -106,7 +106,7 @@
                     <div class="button search-toggle__in-active">
                         <span class="ri ri-chevron-down"></span>
                         <span>
-                            {% block header_site_search_label %}{{ _('Search') }}{% endblock %}
+                            {% block header_site_search_label %}{{ _('Buscar') }}{% endblock %}
                         </span>
                     </div>
                     <div class="button-icon search-toggle__active">
@@ -122,26 +122,26 @@
                         <div class="site-search__inner">
                             <form class="search-form" id="dataset-search" action="{% url_for controller='package', action='search' %}" method="get" data-module="select-switch">
                                 <label for="{$LabelPrefix}-field-sitewide-search">
-                                    {{ _('Search for') }}:
+                                    {{ _('Buscar') }}:
                                 </label>
                                 <div class="context-switch">
                                     <div class="field field--inline-label">
                                         <input id="{$LabelPrefix}-search-for-website-content" type="radio" class="search-form-context" name="header-search-context" value="content" />
                                         <label for="{$LabelPrefix}-search-for-website-content">
-                                            {{ _('Website content') }}
+                                            {{ _('Contenidos') }}
                                         </label>
                                     </div>
                                     <div class="field field--inline-label">
                                         <input id="{$LabelPrefix}-search-for-datasets" type="radio" class="search-form-context" name="header-search-context" value="datasets" checked="checked" />
                                         <label for="{$LabelPrefix}-search-for-datasets">
-                                            {{ _('Datasets') }}
+                                            {{ _('Datos') }}
                                         </label>
                                     </div>
                                 </div>
                                 <div class="field search-input">
                                     <input class="ss-search-url" value="{{ h.parent_site_url() }}/search/SearchForm" type="hidden">
                                     <input class="ckan-search-url" value="{% url_for controller='package', action='search' %}" type="hidden">
-                                    <input id="{$LabelPrefix}-field-sitewide-search" name="q" placeholder="E.g. environment" type="text" aria-label="Search term">
+                                    <input id="{$LabelPrefix}-field-sitewide-search" name="q" placeholder="Ej: Ambiente" type="text" aria-label="Search term">
                                 </div>
                                 <button id="{$LabelPrefix}-search" class="button">
                                     <span class="ri ri-search"></span>
