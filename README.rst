@@ -1,12 +1,12 @@
 =============
-ckanext-dia_theme
+Tema de CKAN
 =============
 
-Frontend CKAN theme for data.govt.nz written in LESS
+Referencia de tema de CKAN basado en data.govt.nz y creado en LESS
 
-------------
-Requirements
-------------
+--------------
+Requerimientos
+--------------
 
 CKAN 2.7.x
 
